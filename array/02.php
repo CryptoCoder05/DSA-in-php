@@ -22,9 +22,11 @@ Example 3:
 
 Input: nums = [3,3], target = 6
 Output: [0,1]
+
 ----------------------------------
            Solution
 ----------------------------------
+
 function twoSum($a, $t) {
     for ($i = 0; $i < count($a); $i++) {
         for ($j = $i + 1; $j < count($a); $j++) {
