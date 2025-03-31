@@ -1,11 +1,11 @@
 <?php include '../partials/header.php'; ?>
 
-<div class="container mb-5">
-    <h2>Move all zeros to end of the array.</h2>
+<div class="container mb-5 mt-3">
+    <h2>Inverted Triangle Pattern</h2>
 
     <div class="d-flex justify-content-between mt-3">
-        <a href="http://localhost/program/array/08.php" class="btn btn-info">Back</a>
-        <a href="http://localhost/program/array/10.php" class="btn btn-info">Next</a>
+        <a href="http://localhost/program/patterns/04.php" class="btn btn-info">Back</a>
+        <a href="http://localhost/program/patterns/06.php" class="btn btn-info">Next</a>
     </div>
 
 
@@ -13,19 +13,27 @@
     <div>
         <pre><code class="language-php">
     &lt;?php
-
+    Pattern - 1
+    -------------------
+    
     ?&gt;
     </code></pre>
     </div>
 
 
     <!-- ===================================== Code Start =============================================-->
+    <div class="d-flex">
+        <div class="me-3">
+            <h2>Pattern-1 |</h2>
 
-    <h2>Output</h2>
+            <?php
 
-    <?php
+          
 
-    ?>
+            ?>
+
+        </div>
+    </div>
 
 
     <!-- ===================================== Code End =============================================-->

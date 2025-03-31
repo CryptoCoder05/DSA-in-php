@@ -15,19 +15,28 @@
           <a class="nav-link" href="http://localhost/program/patterns/01.php">Patterns</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="http://localhost/program/sum-target/01.php">Sum & Target</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="http://localhost/program/strings/01.php">Strings</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Approach</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="http://localhost/program/two-pointer/01.php">Two Pointer</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Algorithm</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="http://localhost/program/algorithm/01.php">Binary Search</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sorting Algorithm</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="http://localhost/program/algorithm/sorting/01.php">Bubble Sort</a>
+            <a class="dropdown-item" href="http://localhost/program/algorithm/sorting/02.php">Merge Sort</a>
           </div>
         </li>
       </ul>

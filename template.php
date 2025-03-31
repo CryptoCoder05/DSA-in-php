@@ -1,4 +1,4 @@
-<?php include '../partials/header.php'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/program/partials/header.php');  ?>
 
 <div class="container mb-5 mt-3">
     <h2>Program</h2>
@@ -31,4 +31,4 @@
     <!-- ===================================== Code End =============================================-->
 </div>
 
-<?php include '../partials/footer.php'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/program/partials/footer.php'); ?>

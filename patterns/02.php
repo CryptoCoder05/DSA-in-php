@@ -1,6 +1,6 @@
 <?php include '../partials/header.php'; ?>
 
-<div class="container mb-5">
+<div class="container mb-5 mt-3">
     <h2>Triangle Pattern</h2>
 
     <div class="d-flex justify-content-between mt-3">

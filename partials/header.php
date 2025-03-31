@@ -31,4 +31,8 @@
 </head>
 <body>
 
-<?php include '../partials/navbar.php'; ?>
+<?php 
+include(__DIR__ . '/navbar.php');
+?>
+
+
