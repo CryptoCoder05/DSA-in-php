@@ -15,7 +15,20 @@
     &lt;?php
     Pattern - 1
     -------------------
-    
+    $n = 4;
+
+    for ($i = 0; $i < $n; $i++) {
+        // for spaces
+        for ($j = 0; $j < $i; $j++) {
+            echo "  ";
+        }
+
+        // for nums
+        for ($j = 0; $j < $n - $i; $j++) {
+            echo $i + 1 . " ";
+        }
+        echo "\n";
+    }
     ?&gt;
     </code></pre>
     </div>
@@ -28,7 +41,20 @@
 
             <?php
 
-          
+            $n = 4;
+
+            for ($i = 0; $i < $n; $i++) {
+                // for spaces
+                for ($j = 0; $j < $i; $j++) {
+                    echo "&nbsp;&nbsp;";
+                }
+
+                // for nums
+                for ($j = 0; $j < $n - $i; $j++) {
+                    echo $i + 1 . " ";
+                }
+                echo "<br>";
+            }
 
             ?>
 
