@@ -15,7 +15,26 @@
     &lt;?php
     Pattern - 1
     -------------------
-   
+    $n = 4;
+
+    for ($i = 0; $i < $n; $i++) {
+        // spaces
+        for ($j = 0; $j < $n - $i - 1; $j++) {
+            echo " ";
+        }
+
+        // num1
+        for ($j = 0; $j <= $i; $j++) {
+            echo $j + 1;
+        }
+
+        // num2
+        for ($j = $i; $j > 0; $j--) {
+            echo $j;
+        }
+
+        echo "\n";
+    }
     
     ?&gt;
     </code></pre>
@@ -25,9 +44,31 @@
     <!-- ===================================== Code Start =============================================-->
     <div class="d-flex">
         <div class="me-3">
-            <h2>Pattern-1 |</h2>
+            <h2>Output</h2>
 
             <?php
+
+            $n = 4;
+
+            for ($i = 0; $i < $n; $i++) {
+                // spaces
+                for ($j = 0; $j < $n - $i - 1; $j++) {
+                    echo "&nbsp";
+                }
+
+                // num1
+                for ($j = 0; $j <= $i; $j++) {
+                    echo $j + 1;
+                }
+
+                // num2
+                for ($j = $i; $j > 0; $j--) {
+                    echo $j;
+                }
+
+                echo "<br>";
+            }
+
 
             ?>
 

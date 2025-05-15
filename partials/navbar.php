@@ -24,6 +24,7 @@
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Approach</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="http://localhost/program/two-pointer/01.php">Two Pointer</a>
+            <a class="dropdown-item" href="http://localhost/program/hash-map/01.php">Hash Map</a>
           </div>
         </li>
         <li class="nav-item dropdown">

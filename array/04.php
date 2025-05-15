@@ -19,15 +19,15 @@
     $second_largest = PHP_INT_MIN;
 
     for($i = 0; $i < count($arr); $i++){
-    if($largest < $arr[$i]){
-        $largest = $arr[$i];
-    }
+        if($largest < $arr[$i]){
+            $largest = $arr[$i];
+        }
     }
 
     for($i = 0; $i < count($arr); $i++){
-    if($second_largest < $arr[$i] && $arr[$i] != $largest){
-        $second_largest = $arr[$i];
-    }
+        if($second_largest < $arr[$i] && $arr[$i] != $largest){
+            $second_largest = $arr[$i];
+        }
     }
 
     echo "Largest value is ". $largest;
