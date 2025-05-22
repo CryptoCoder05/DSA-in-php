@@ -14,6 +14,7 @@
         <pre><code class="language-php">
     &lt;?php
     
+    // Supportive function
     function reverse(&$arr, $i, $j)
     {
         while ($i < $j) {
@@ -26,7 +27,7 @@
         }
     }
 
-    // Remeber
+    // Main function
     function rotate(&$arr, $k){
         $n = count($arr);
         $k = $k % $n;

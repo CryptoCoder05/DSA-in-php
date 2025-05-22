@@ -1,7 +1,7 @@
 <?php include '../partials/header.php'; ?>
 
 <div class="container mb-5 mt-3">
-    <h2>Reverse an array without creating extra array.</h2>
+    <h2>Reverse an array without creating extra array - (Two pointer approach)</h2>
 
     <div class="d-flex justify-content-between mt-3">
         <a href="http://localhost/program/array/05.php" class="btn btn-info">Back</a>
