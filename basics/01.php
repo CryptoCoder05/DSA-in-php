@@ -1,7 +1,7 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . '/program/partials/header.php'); ?>
 
 <div class="container mb-5 mt-3">
-    <h2>Write a program to find a string is palindrome or not?</h2>
+    <h2>Write a program to find a Number is palindrome or not?</h2>
 
     <div class="d-flex justify-content-between mt-3">
         <a href="http://localhost/program/basics/01.php" class="btn btn-info">Back</a>

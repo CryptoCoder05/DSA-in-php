@@ -2,19 +2,19 @@
 <?php
 $input = 'Anirudh Singh';
 $result = array();
-for($i = 0; $i < strlen($input); $i++ ) {
+for ($i = 0; $i < strlen($input); $i++) {
   $chr = $input[$i];
-  if( $chr === ' ' ) {
+  if ($chr === ' ') {
     $chr = '_';
   }
 
   if (isset($result[$chr])) {
     $result[$chr]++;
-  }else {
+  } else {
     $result[$chr] = 1;
   }
 }
 
 var_dump($result);
 
- ?>
+?>

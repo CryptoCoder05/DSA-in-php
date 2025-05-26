@@ -30,7 +30,7 @@
             aria-expanded="false">Approach</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="http://localhost/program/two-pointer/01.php">Two Pointer</a>
-            <a class="dropdown-item" href="http://localhost/program/hash-map/01.php">Hash Map</a>
+            <a class="dropdown-item" href="http://localhost/program/hash-map/01.php">Hashing</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -38,6 +38,7 @@
             aria-expanded="false">Algorithm</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="http://localhost/program/algorithm/01.php">Binary Search</a>
+            <a class="dropdown-item" href="http://localhost/program/algorithm/02.php">Kadane's Algorithm</a>
           </div>
         </li>
         <li class="nav-item dropdown">
