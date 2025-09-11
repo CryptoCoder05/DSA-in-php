@@ -31,6 +31,7 @@
           <div class="dropdown-menu">
             <a class="dropdown-item" href="http://localhost/program/two-pointer/01.php">Two Pointer</a>
             <a class="dropdown-item" href="http://localhost/program/hash-map/01.php">Hashing</a>
+            <a class="dropdown-item" href="http://localhost/program/min-max/01.php">Min-Max</a>
           </div>
         </li>
         <li class="nav-item dropdown">
