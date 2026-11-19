@@ -1,11 +1,14 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/program/partials/header.php'); ?>
+<?php
+require_once __DIR__ . '/../config.php';
+include ROOT_PATH . 'partials/header.php';
+?>
 
 <div class="container mb-5 mt-3">
     <h2>Write a program to find the factorial of a number in PHP</h2>
 
     <div class="d-flex justify-content-between mt-3">
-        <a href="http://localhost/program/basics/01.php" class="btn btn-info">Back</a>
-        <a href="http://localhost/program/basics/03.php" class="btn btn-info">Next</a>
+        <a href="<?= BASE_URL ?>basics/01.php" class="btn btn-info">Back</a>
+        <a href="<?= BASE_URL ?>basics/03.php" class="btn btn-info">Next</a>
     </div>
 
 
@@ -55,4 +58,4 @@
     <!-- ===================================== Code End =============================================-->
 </div>
 
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/program/partials/footer.php'); ?>
+<?php include ROOT_PATH . 'partials/footer.php'; ?>
