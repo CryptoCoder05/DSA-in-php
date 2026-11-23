@@ -1,16 +1,7 @@
-<?php
-$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
-  ? "https://"
-  : "http://";
-
-$baseUrl = $protocol . $_SERVER['HTTP_HOST']
-  . rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') . '/';
-?>
-
 <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
   <div class="container-fluid">
 
-    <a class="navbar-brand" href="<?= $baseUrl ?>">DSA</a>
+    <a class="navbar-brand" href="<?= BASE_URL ?>basics/01.php">DSA</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor04"
       aria-controls="navbarColor04" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,23 +14,23 @@ $baseUrl = $protocol . $_SERVER['HTTP_HOST']
       <ul class="navbar-nav me-auto">
 
         <li class="nav-item">
-          <a class="nav-link" href="<?= $baseUrl ?>basics/01.php">Basics</a>
+          <a class="nav-link" href="<?= BASE_URL ?>basics/01.php">Basics</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="<?= $baseUrl ?>array/04.php">Array</a>
+          <a class="nav-link" href="<?= BASE_URL ?>array/01.php">Array</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="<?= $baseUrl ?>patterns/01.php">Patterns</a>
+          <a class="nav-link" href="<?= BASE_URL ?>patterns/01.php">Patterns</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="<?= $baseUrl ?>sum-target/01.php">Sum & Target</a>
+          <a class="nav-link" href="<?= BASE_URL ?>sum-target/01.php">Sum & Target</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="<?= $baseUrl ?>strings/01.php">Strings</a>
+          <a class="nav-link" href="<?= BASE_URL ?>strings/01.php">Strings</a>
         </li>
 
         <!-- Approach -->
@@ -49,9 +40,9 @@ $baseUrl = $protocol . $_SERVER['HTTP_HOST']
           </a>
 
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="<?= $baseUrl ?>two-pointer/01.php">Two Pointer</a>
-            <a class="dropdown-item" href="<?= $baseUrl ?>hash-map/01.php">Hashing</a>
-            <a class="dropdown-item" href="<?= $baseUrl ?>min-max/01.php">Min-Max</a>
+            <a class="dropdown-item" href="<?= BASE_URL ?>two-pointer/01.php">Two Pointer</a>
+            <a class="dropdown-item" href="<?= BASE_URL ?>hash-map/01.php">Hashing</a>
+            <a class="dropdown-item" href="<?= BASE_URL ?>min-max/01.php">Min-Max</a>
           </div>
         </li>
 
@@ -62,8 +53,8 @@ $baseUrl = $protocol . $_SERVER['HTTP_HOST']
           </a>
 
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="<?= $baseUrl ?>algorithm/01.php">Binary Search</a>
-            <a class="dropdown-item" href="<?= $baseUrl ?>algorithm/02.php">Kadane's Algorithm</a>
+            <a class="dropdown-item" href="<?= BASE_URL ?>algorithm/01.php">Binary Search</a>
+            <a class="dropdown-item" href="<?= BASE_URL ?>algorithm/02.php">Kadane's Algorithm</a>
           </div>
         </li>
 
@@ -74,8 +65,8 @@ $baseUrl = $protocol . $_SERVER['HTTP_HOST']
           </a>
 
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="<?= $baseUrl ?>algorithm/sorting/01.php">Bubble Sort</a>
-            <a class="dropdown-item" href="<?= $baseUrl ?>algorithm/sorting/02.php">Merge Sort</a>
+            <a class="dropdown-item" href="<?= BASE_URL ?>algorithm/sorting/01.php">Bubble Sort</a>
+            <a class="dropdown-item" href="<?= BASE_URL ?>algorithm/sorting/02.php">Merge Sort</a>
           </div>
         </li>
 

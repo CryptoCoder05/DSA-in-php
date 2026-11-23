@@ -1,8 +1,6 @@
 <?php
 
-$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
-    ? 'https://'
-    : 'http://';
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https://' : 'http://';
 
 $projectFolder = explode('/', trim($_SERVER['SCRIPT_NAME'], '/'))[0];
 
