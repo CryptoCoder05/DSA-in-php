@@ -38,12 +38,12 @@
 
     Pattern - 3
     -------------------
-    $n = 3;
+        $n = 3;
         $num = 1;
 
         for ($i = 1; $i <= $n; $i++) {
             for ($j = 1; $j <= $n; $j++) {
-                echo $num;
+                echo $num. " ";
                 $num++;
             }
             echo "/n";
@@ -57,7 +57,7 @@
     for($i = 1; $i <= $n; $i++){
         for($j = 1; $j <= $n; $j++){
             echo $ch . " ";
-            $ch++;
+            $ch = str_increment($ch);
         }
         echo "\n";
     }
@@ -105,7 +105,7 @@
 
             for ($i = 1; $i <= $n; $i++) {
                 for ($j = 1; $j <= $n; $j++) {
-                    echo $num;
+                    echo $num. " ";
                     $num++;
                 }
                 echo "<br>";
@@ -122,7 +122,7 @@
             for ($i = 1; $i <= $n; $i++) {
                 for ($j = 1; $j <= $n; $j++) {
                     echo $ch . " ";
-                    $ch++;
+                    $ch = str_increment($ch);
                 }
                 echo "<br>";
             }
