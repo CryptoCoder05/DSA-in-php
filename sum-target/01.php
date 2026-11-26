@@ -1,11 +1,14 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/program/partials/header.php'); ?>
+<?php
+require_once __DIR__ . '/../config.php';
+include ROOT_PATH . 'partials/header.php';
+?>
 
 <div class="container mb-5 mt-3">
     <h2>Two Sum</h2>
 
     <div class="d-flex justify-content-between mt-3">
-        <a href="http://localhost/program/sum-target/01.php" class="btn btn-info">Back</a>
-        <a href="http://localhost/program/sum-target/02.php" class="btn btn-info">Next</a>
+        <a href="<?= BASE_URL ?>sum-target/01.php" class="btn btn-info">Back</a>
+        <a href="<?= BASE_URL ?>sum-target/02.php" class="btn btn-info">Next</a>
     </div>
 
 
@@ -78,7 +81,7 @@
     $result = twoSum($nums, $target);
 
     echo "<pre>";
-    print_r($result); 
+    print_r($result);
     echo "</pre>";
     ?>
 
@@ -87,4 +90,4 @@
     <!-- ===================================== Code End =============================================-->
 </div>
 
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/program/partials/footer.php'); ?>
+<?php include ROOT_PATH . 'partials/footer.php'; ?>
